@@ -1,5 +1,5 @@
-import { FC } from 'react'
-import { ExternalLink, Github } from 'lucide-react'
+import type { FC } from 'react'
+import { ExternalLink, Code2 } from 'lucide-react'
 
 interface Project {
   id: number
@@ -59,7 +59,7 @@ const Projects: FC = () => {
               <div className="project-links">
                 {project.githubUrl && (
                   <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="project-link">
-                    <Github size={20} />
+                    <Code2 size={20} />
                     <span>Code</span>
                   </a>
                 )}

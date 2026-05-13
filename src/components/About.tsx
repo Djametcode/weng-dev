@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import type { FC } from 'react'
 
 const About: FC = () => {
   return (
@@ -21,7 +21,11 @@ const About: FC = () => {
             <p>
               My journey in software development has led me to work with various technologies 
               including React, TypeScript, Node.js, Python, and blockchain technologies like 
-              Ethereum and Solana.
+              Ethereum and Solana. I'm particularly interested in DeFi automation and cryptocurrency mining.
+            </p>
+            <p>
+              Currently working on innovative projects including CPU mining optimization, EVM wallet solutions, 
+              and DeFi swap integrations. Always learning and exploring new technologies in the Web3 space.
             </p>
             <div className="skills">
               <h4>Technologies I work with:</h4>

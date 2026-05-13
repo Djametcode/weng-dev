@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import type { FC } from 'react'
 
 interface HeroProps {
   setActiveSection: (section: string) => void
@@ -12,7 +12,10 @@ const Hero: FC<HeroProps> = ({ setActiveSection }) => {
           Hi, I'm <span className="highlight">Djametcoder</span>
         </h1>
         <p className="hero-subtitle">
-          Fullstack Developer | Building digital experiences with modern technology
+          Fullstack Developer | Blockchain Enthusiast | Building digital experiences with modern technology
+        </p>
+        <p style={{ color: '#b0b0b0', marginBottom: '30px', fontSize: '1em' }}>
+          Specialized in React, TypeScript, Node.js, Solidity, and DeFi automation
         </p>
         <div className="hero-buttons">
           <button 

@@ -1,5 +1,6 @@
-import { FC, useState } from 'react'
-import { Mail, Github, Linkedin, Twitter } from 'lucide-react'
+import type { FC } from 'react'
+import { useState } from 'react'
+import { Mail, Code2, Briefcase, Share2 } from 'lucide-react'
 
 const Contact: FC = () => {
   const [formData, setFormData] = useState({
@@ -79,15 +80,15 @@ const Contact: FC = () => {
                 <span>Email</span>
               </a>
               <a href="https://github.com/Djametcode" target="_blank" rel="noopener noreferrer" className="social-link">
-                <Github size={24} />
+                <Code2 size={24} />
                 <span>GitHub</span>
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">
-                <Linkedin size={24} />
+                <Briefcase size={24} />
                 <span>LinkedIn</span>
               </a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-link">
-                <Twitter size={24} />
+                <Share2 size={24} />
                 <span>Twitter</span>
               </a>
             </div>
